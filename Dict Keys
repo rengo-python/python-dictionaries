@@ -1,0 +1,6 @@
+def keys(d,n=1):
+    a=n
+    if type(d)==dict:
+        for i in list(d.keys()):
+            print('=='*a,i)
+            keys(d[i],a+1)
