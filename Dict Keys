@@ -1,4 +1,4 @@
-## print all keys of multilevel dictionary
+## print keys of multilevel dictionary
 
 def keys(d,n=1):
     a=n
