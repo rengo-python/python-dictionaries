@@ -1,3 +1,5 @@
+## print all keys of multilevel dictionary
+
 def keys(d,n=1):
     a=n
     if type(d)==dict:
